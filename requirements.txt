@@ -1,0 +1,7 @@
+pytest
+fastapi
+pydantic
+uvicorn[standard]
+pillow
+python-multipart
+openai
