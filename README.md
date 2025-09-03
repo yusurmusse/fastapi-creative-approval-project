@@ -23,7 +23,7 @@ Use the following commands to build and run locally and virtually.
  First clone the repo:
   ```bash
 git clone https://github.com/yusurmusse/fastapi-creative-approval-project
-cd <fastapi-creative-approval-project>
+cd fastapi-creative-approval-project
 ```
 Create a virtual environment:
   ```bash
