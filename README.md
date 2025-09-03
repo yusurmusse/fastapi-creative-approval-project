@@ -70,7 +70,7 @@ OpenAPI docs are avaialable at <http://localhost:8000/docs>
 4. Ratio Size Checker: Ratio has to be between 0.7-2.5. Any figure outside this would be flagged as REQUIRES_REVIEW.
 5. Legality and Contrast Checker: Images that are too dark or low in contrast will be flagged up as REQUIRES_REVIEW.
 
-> ℹ️ Rules were interpreted from the docs provided. Clause: *“Posters and other promotional media in public places… must comply with rules ensuring ads are honest, clear, and not likely to cause harm or offence.”*
+> ℹ️ Rules were interpreted from the docs provided. Clause: *“Posters and other promotional media in public places… must comply with rules ensuring ads are honest, **clear**, and not likely to cause harm or offence.”*
 
 ## Design Decisions and Trade-offs
 * For simplicity of this project, ML was not used but instead deterministic heuristics to be easy to use offline too
