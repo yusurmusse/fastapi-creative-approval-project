@@ -30,6 +30,7 @@ Create a virtual environment:
 python3 -m venv venv
 ```
 Then activate the virtual enviroment:
+
 For Linux/Mac run:
   ```bash
 source venv/bin/activate
