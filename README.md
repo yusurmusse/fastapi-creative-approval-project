@@ -53,11 +53,11 @@ uvicorn src.main:app --reload
 ## Running in Docker
 You'll need to build a docker image:
   ```bash
-docker build -t <insert_docker_image_name> .
+docker build -t creative-approval-service .
 ```
 Then run the container:
   ```bash
-docker run -p 8000:8000 <insert_docker_image_name>
+docker run -p 8000:8000 creative-approval-service
 ```
 The API will be available at <http://localhost:8000> 
 The health status will be available at <http://localhost:8000/health>
