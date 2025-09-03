@@ -14,6 +14,10 @@ client = OpenAI(api_key=openai_key) if openai_key else None
 app = FastAPI()
 logger = logging.getLogger(__name__)
 
+@app.get("/")
+def root_homepage():
+    return {"Welcome to the Creative Approval Service!"}
+
 @app.get("/health")
 def health():
     logger.info("Checking health check...")
