@@ -22,8 +22,8 @@ It's recommended to use a virtual environment rather than global. The virtual en
 Use the following commands to build and run locally and virtually.
  First clone the repo:
   ```bash
-git clone <insert_repo_url>
-cd <insert_repo_directory>
+git clone https://github.com/yusurmusse/fastapi-creative-approval-project
+cd <fastapi-creative-approval-project>
 ```
 Create a virtual environment:
   ```bash
